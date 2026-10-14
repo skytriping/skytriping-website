@@ -178,6 +178,17 @@ function handleGenericFormSubmit(e, formType) {
     submitFormData(form, formType, statusMsg, submitBtn);
   }
 
+document.addEventListener("DOMContentLoaded", function () {
+  const hamburgerBtn = document.getElementById("hamburgerBtn");
+  const navLinks = document.querySelector(".nav-links"); // Match your menu class name here
+
+  if (hamburgerBtn && navLinks) {
+    hamburgerBtn.addEventListener("click", function () {
+      navLinks.classList.toggle("active");
+    });
+  }
+});
+
 // document.addEventListener("DOMContentLoaded", function () {
 //   const visaForm = document.getElementById("visaForm") || document.getElementById("visaApplicationForm");
 //   if (visaForm) visaForm.addEventListener("submit", handleFormSubmit);
