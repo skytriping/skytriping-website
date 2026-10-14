@@ -193,37 +193,58 @@ a:hover {
   z-index: 1001;
 }
 
-.hamburger-btn .bar {
+/* Hide hamburger by default on desktop */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 20px;
+  padding: 0;
+  z-index: 1001;
+}
+
+.hamburger span {
   display: block;
   width: 100%;
   height: 3px;
-  background-color: #1a202c; /* Adjust color to match your theme */
+  background-color: #0088cc;
   border-radius: 2px;
   transition: all 0.3s ease;
 }
 
-/* Mobile Media Query (triggers under 768px screens) */
+/* Mobile Responsive Menu Rules (Screens <= 768px) */
 @media (max-width: 768px) {
-  .hamburger-btn {
-    display: flex; /* Show hamburger on mobile */
+  .hamburger {
+    display: flex; /* Show hamburger button on mobile */
   }
 
-  /* Target your existing navigation list class here to hide it initially */
-  .nav-links { /* Replace .nav-links with whatever class your menu uses */
-    display: none;
+  .main-nav {
+    display: none; /* Hide nav by default on mobile */
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    background: #ffffff;
-    flex-direction: column;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px 0;
   }
 
-  /* When JS adds the 'active' class, show the menu */
-  .nav-links.active {
-    display: flex;
+  /* When JavaScript adds the 'active' class, show the menu */
+  .main-nav.active {
+    display: block;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 }
 
