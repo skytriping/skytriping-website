@@ -179,12 +179,12 @@ function handleGenericFormSubmit(e, formType) {
   }
 
 document.addEventListener("DOMContentLoaded", function () {
-  const hamburgerBtn = document.getElementById("hamburgerBtn");
-  const navLinks = document.querySelector(".nav-links"); // Match your menu class name here
+  const hamburgerBtn = document.getElementById("hamburger-btn");
+  const mainNav = document.querySelector(".main-nav");
 
-  if (hamburgerBtn && navLinks) {
+  if (hamburgerBtn && mainNav) {
     hamburgerBtn.addEventListener("click", function () {
-      navLinks.classList.toggle("active");
+      mainNav.classList.toggle("active");
     });
   }
 });
