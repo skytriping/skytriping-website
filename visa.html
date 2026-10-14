@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visa Assistance - Skytriping</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+ <!-- TOP CONTACT LINE -->
+    <div class="top-bar">
+      <div class="top-bar-container">
+        <!-- Left Side: Phone & Email Links -->
+        <div class="top-bar-left">
+          <a href="tel:+911234567890">
+            📞 <span>+91 1234567890</span>
+          </a>
+          <a href="mailto:info@skytriping.com">
+            ✉️ <span>info@skytriping.com</span>
+          </a>
+        </div>
+        <!-- Right Side: Operational Working Hours -->
+        <div class="top-bar-right">
+          <span>🕒 Mon - Sat: 9:00 AM - 7:00 PM</span>
+        </div>
+      </div>
+    </div>    
+
+  <!-- HEADER NAVIGATION -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">
+      <img src="./assets/assets/logo.png" alt="Skytriping Logo" class="brand-logo-img">
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="visa.html" class="active">Visa</a></li>
+          <li><a href="passport.html">Passport</a></li>
+          <li><a href="insurance.html">Insurance</a></li>
+          <li><a href="flights.html">Flights</a></li>
+          <li><a href="hotel.html">Hotels</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <!-- NAV ITEM: TRACK APPLICATION -->
+          <li><a href="track-application.html" class="btn-nav-action">Track Application</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- COMPACT HEADER BANNER -->
+  <section class="page-banner-compact">
+    <h1>Popular Destinations</h1>
+    <p>Select a destination to apply for fast visa assistance</p>
+  </section>
+
+  <section class="visa-selector-section container">
+  <h2>Select Visa Destination</h2>
+  <p class="subtitle">Choose your residency/passport and destination country to check visa details.</p>
+
+  <!-- Fee Fluctuation Disclaimer -->
+     <div class="disclaimer-alert">
+      <p><strong>Please Note:</strong> Embassy and government fees listed are calculated based on current exchange rates and official government guidelines. Final fees may fluctuate based on exchange rate variations, embassy policy updates, or optional express processing services at the time of submission.</p>
+      </div>
+
+  <!-- Filter Controls -->
+  <div class="visa-filter-box">
+    <div class="filter-group">
+      <label for="residenceSelect">I hold a passport from / Resident of:</label>
+      <select id="residenceSelect" class="form-select">
+        <option value="India" selected>India (Default)</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label for="destinationSelect">I want to travel to:</label>
+      <select id="destinationSelect" class="form-select">
+        <option value="">-- Select Destination --</option>
+        <option value="Australia">Australia</option>
+        <option value="Austria">Austria</option>
+        <option value="Belgium">Belgium</option>
+        <option value="Canada">Canada</option>
+        <option value="China">China</option>
+        <option value="Czech Republic">Czech Republic</option>
+        <option value="Denmark">Denmark</option>
+        <option value="Finland">Finland</option>
+        <option value="France">France</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Germany">Germany</option>
+        <option value="Greece">Greece</option>
+        <option value="Hungary">Hungary</option>
+        <option value="Iceland">Iceland</option>
+        <option value="Indonesia">Indonesia</option>
+        <option value="Ireland">Ireland</option>
+        <option value="Italy">Italy</option>
+        <option value="Japan">Japan</option>
+        <option value="Luxembourg">Luxembourg</option>
+        <option value="Malaysia">Malaysia</option>
+        <option value="Netherlands">Netherlands</option>
+        <option value="New Zealand">New Zealand</option>
+        <option value="Norway">Norway</option>
+        <option value="Philippines">Philippines</option>
+        <option value="Poland">Poland</option>
+        <option value="Portugal">Portugal</option>
+        <option value="Russia">Russia</option>
+        <option value="Singapore">Singapore</option>
+        <option value="South Africa">South Africa</option>
+        <option value="Spain">Spain</option>
+        <option value="Sri Lanka">Sri Lanka</option>
+        <option value="Sweden">Sweden</option>
+        <option value="Switzerland">Switzerland</option>
+        <option value="Turkey">Turkey</option>
+        <option value="UK">UK</option>
+      </select>
+    </div>
+  </div>
+
+</section>
+
+  <!-- 5-Column Clean Visa Grid -->
+  <section class="popular-destinations-section">
+    <div class="destinations-grid-5">
+
+    <!-- Card 1: Australia -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets//australia.jpg" alt="Australia">
+    <div class="dest-overlay-text">
+      <h3>Australia</h3>
+      <p>Tourist/Business</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹11,612.40</span>
+      <span>Service: ₹3,500.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Australia', 'Tourist/Business', '₹11,612.40', '₹3,500.00', '₹15,112.40')">
+  Apply Now
+</button>
+
+  </div>
+</div>
+
+<!-- Card 2: Australia 600 Tourist Visa - Priority
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets//australia-600-tourist-visa-priority.jpg" alt="Australia 600 Tourist Visa - Priority">
+    <div class="dest-overlay-text">
+      <h3>Australia</h3>
+      <p>600 Tourist Visa - Priority</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹69,674.40</span>
+      <span>Service: ₹3,500.00</span>
+    </div>
+    <a href="apply.html?country=australia-600-tourist-visa-priority" class="btn-dest-apply">Appy Now</a>
+  </div>
+</div> -->
+
+<!-- Card 3: Austria Short Stay Tourist Visa/Business -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets//austria-short-stay-tourist-visabusiness.jpg" alt="Austria Short Stay Tourist Visa/Business">
+    <div class="dest-overlay-text">
+      <h3>Austria</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹11,499.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+   <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Austria', 'Short Stay Tourist Visa', '₹11,499.00', '₹3,000.00', '₹14,499.00')">
+  Apply Now
+</button>
+
+  </div>
+</div>
+
+<!-- Card 4: Belgium Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets//belgium-short-stay-tourist-visa.jpg" alt="Belgium Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Belgium</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹11,385.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Belgium', 'Short Stay Tourist Visa', '₹11,385.00', '₹3,000.00', '₹14,385.00')">
+  Apply Now
+</button>
+</div>
+</div>
+
+<!-- Card 5: Canada Temporary Resident Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets//canada-temporary-resident-visa.jpg" alt="Canada Temporary Resident Visa">
+    <div class="dest-overlay-text">
+      <h3>Canada</h3>
+      <p>Temporary Resident Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹11,296.25</span>
+      <span>Service: ₹4,500.00</span>
+    </div>
+   <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Canada', 'Temporary Resident Visa', '₹11,296.25', '₹4,500.00', '₹15,796.25')">
+  Apply Now
+</button>
+</div>
+</div>
+
+<!-- Card 6: China Single Entry Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets//china-single-entry-visa.jpg" alt="China Single Entry Visa">
+    <div class="dest-overlay-text">
+      <h3>China</h3>
+      <p>Single Entry Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹4,851.00</span>
+      <span>Service: ₹2,200.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('China', 'Single Entry Visa', '₹4,851.00', '₹2,200.00', '₹7,051.00')">
+  Apply Now
+</button>
+ </div>
+</div>
+
+<!-- Card 7: Cyprus Short Stay Single Entry Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets//cyprus-short-stay-single-entry-tourist-visa.jpg" alt="Cyprus Short Stay Single Entry Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Cyprus</h3>
+      <p>Short Stay Single Entry Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹9,372.00</span>
+      <span>Service: ₹2,500.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Cyprus', 'Short Stay Single Entry Tourist Visa', '₹9,372.00', '₹2,500.00', '₹11,872.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 8: Czech Republic Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets//czech-republic-short-stay-tourist-visa.jpg" alt="Czech Republic Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Czech Republic</h3>
+      <p>Republic Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹11,366.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Czech Republic', 'Short Stay Tourist Visa', '₹11,366.00', '₹3,000.00', '₹14,366.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 9: Denmark Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets//denmark-short-stay-tourist-visa.jpg" alt="Denmark Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Denmark</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹11,168.21</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Denmark', 'Short Stay Tourist Visa', '₹11,168.21', '₹3,000.00', '₹14,168.21')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 10: Finland Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/finland-short-stay-tourist-visa.jpg" alt="Finland Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Finland</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹11,245.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Finland', 'Short Stay Tourist Visa', '₹11,245.00', '₹3,000.00', '₹14,245.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 11: France Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/france-short-stay-tourist-visa.jpg" alt="France Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>France</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹11,462.92</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('France', 'Short Stay Tourist Visa', '₹11,462.92', '₹3,000.00', '₹14,462.92')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 12: Georgia e-Visa Single Entry -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/georgia-e-visa-single-entry.jpg" alt="Georgia e-Visa Single Entry">
+    <div class="dest-overlay-text">
+      <h3>Georgia</h3>
+      <p>e-Visa Single Entry</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹3,135.13</span>
+      <span>Service: ₹2,500.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Georgia', 'e-Visa Single Entry', '₹3,135.13', '₹2,500.00', '₹5,635.13')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 13: Germany Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/germany-short-stay-tourist-visa.jpg" alt="Germany Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Germany</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹11,033.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Germany', 'Short Stay Tourist Visa', '₹11,033.00', '₹3,000.00', '₹14,033.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 14: Greece Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/greece-short-stay-tourist-visa.jpg" alt="Greece Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Greece</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹12,332.28</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Greece', 'Short Stay Tourist Visa', '₹12,332.28', '₹3,000.00', '₹15,332.28')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 15: Hungary Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/hungary-short-stay-tourist-visa.jpg" alt="Hungary Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Hungary</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹11,060.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Hungary', 'Short Stay Tourist Visa', '₹11,060.00', '₹3,000.00', '₹14,060.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 16: Iceland Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/iceland-short-stay-tourist-visa.jpg" alt="Iceland Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Iceland</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹11,900.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Iceland', 'Short Stay Tourist Visa', '₹11,900.00', '₹3,000.00', '₹14,900.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 17: Indonesia e-VOA -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/indonesia-e-voa.jpg" alt="Indonesia e-VOA">
+    <div class="dest-overlay-text">
+      <h3>Indonesia</h3>
+      <p>e-VOA</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹2,759.06</span>
+      <span>Service: ₹849.60</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Indonesia', 'e-VOA', '₹2,759.06', '₹849.60', '₹3,608.66')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 18: Ireland Single Entry Short Stay Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/ireland-single-entry-short-stay-visa.jpg" alt="Ireland Single Entry Short Stay Visa">
+    <div class="dest-overlay-text">
+      <h3>Ireland</h3>
+      <p>Single Entry Short Stay Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹12,518.00</span>
+      <span>Service: ₹2,500.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Ireland', 'Single Entry Short Stay Visa', '₹12,518.00', '₹2,500.00', '₹15,018.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 19: Italy Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/italy-short-stay-tourist-visa.jpg" alt="Italy Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Italy</h3>
+      <p>hort Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹9,281.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Italy', 'Short Stay Tourist Visa', '₹9,281.00', '₹3,000.00', '₹12,281.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 20: Japan e-Visa Single Entry
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/japan-e-visa-single-entry.jpg" alt="Japan e-Visa Single Entry">
+    <div class="dest-overlay-text">
+      <h3>Japan</h3>
+      <p>e-Visa Single Entry</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹3,000.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <a href="apply.html?country=japan-e-visa-single-entry" class="btn-dest-apply">Appy Now</a>
+  </div>
+</div> -->
+
+<!-- Card 21: Japan Sticker Visa Single Entry -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/japan-sticker-visa-single-entry.jpg" alt="Japan Sticker Visa Single Entry">
+    <div class="dest-overlay-text">
+      <h3>Japan</h3>
+      <p>Sticker Visa Single Entry</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹1,250.00</span>
+      <span>Service: ₹2,200.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Japan', 'Sticker Visa Single Entry', '₹1,250.00', '₹2,200.00', '₹3,450.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 22: Luxembourg Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/luxembourg-short-stay-tourist-visa.jpg" alt="Luxembourg Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Luxembourg</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹10,752.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Luxembourg', 'Short Stay Tourist Visa', '₹10,752.00', '₹3,000.00', '₹13,752.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 23: Malaysia eVisa Single Entry -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/malaysia-evisa-single-entry.jpg" alt="Malaysia eVisa Single Entry">
+    <div class="dest-overlay-text">
+      <h3>Malaysia</h3>
+      <p>eVisa Single Entry</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹0.00</span>
+      <span>Service: ₹849.6</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Malaysia', 'eVisa Single Entry', '₹0.00', '₹849.60', '₹849.60')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 24: Morocco e-Visa Single Entry
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/morocco-e-visa-single-entry.jpg" alt="Morocco e-Visa Single Entry">
+    <div class="dest-overlay-text">
+      <h3>Morocco</h3>
+      <p>e-Visa Single Entry</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹14,357.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <a href="apply.html?country=morocco-e-visa-single-entry" class="btn-dest-apply">Appy Now</a>
+  </div>
+</div> -->
+
+<!-- Card 25: Netherlands Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/netherlands-short-stay-tourist-visa.jpg" alt="Netherlands Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Netherlands</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹10,905.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Netherlands', 'Short Stay Tourist Visa', '₹10,905.00', '₹3,000.00', '₹13,905.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 26: New Zealand Visitor Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/new-zealand-visitor-visa.jpg" alt="New Zealand Visitor Visa">
+    <div class="dest-overlay-text">
+      <h3>New Zealand</h3>
+      <p>Visitor Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹22,489.68</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('New Zealand', 'Visitor Visa', '₹22,489.68', '₹3,000.00', '₹25,489.68')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 27: Norway Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/norway-short-stay-tourist-visa.jpg" alt="Norway Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Norway</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹11,304.59</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Norway', 'Short Stay Tourist Visa', '₹11,304.59', '₹3,000.00', '₹14,304.59')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 28: Philippines Tourist Visa Single Entry -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/philippines-tourist-visa-single-entry.jpg" alt="Philippines Tourist Visa Single Entry">
+    <div class="dest-overlay-text">
+      <h3>Philippines</h3>
+      <p>Tourist Visa Single Entry</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹3,520.00</span>
+      <span>Service: ₹2,500.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Philippines', 'Tourist Visa Single Entry', '₹3,520.00', '₹2,500.00', '₹6,020.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 29: Poland Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/poland-short-stay-tourist-visa.jpg" alt="Poland Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Poland</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹10,023.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Poland', 'Short Stay Tourist Visa', '₹10,023.00', '₹3,000.00', '₹13,023.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 30: Portugal Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/portugal-short-stay-tourist-visa.jpg" alt="Portugal Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Portugal</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹12,318.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Portugal', 'Short Stay Tourist Visa', '₹12,318.00', '₹3,000.00', '₹15,318.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 31: Russia E-Visa Single Entry -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/russia-e-visa-single-entry.jpg" alt="Russia E-Visa Single Entry">
+    <div class="dest-overlay-text">
+      <h3>Russia</h3>
+      <p>E-Visa Single Entry</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹4,856.70</span>
+      <span>Service: ₹1,180.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Russia', 'E-Visa Single Entry', '₹4,856.70', '₹1,180.00', '₹6,036.70')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 32: Singapore E-Visa Single Entry -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/singapore-e-visa-single-entry.jpg" alt="Singapore E-Visa Single Entry">
+    <div class="dest-overlay-text">
+      <h3>Singapore</h3>
+      <p>E-Visa Single Entry</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹1,900.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Singapore', 'E-Visa Single Entry', '₹1,900.00', '₹3,000.00', '₹4,900.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 33: South Africa Visitor Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/south-africa-visitor-visa.jpg" alt="South Africa Visitor Visa">
+    <div class="dest-overlay-text">
+      <h3>South Africa</h3>
+      <p>Visitor Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹5,041.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('South Africa', 'Visitor Visa', '₹5,041.00', '₹3,000.00', '₹8,041.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 34: South Korea K-ETA
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/south-korea-k-eta.jpg" alt="South Korea K-ETA">
+    <div class="dest-overlay-text">
+      <h3>South Korea </h3>
+      <p>K-ETA</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹2,800.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <a href="apply.html?country=south-korea-k-eta" class="btn-dest-apply">Appy Now</a>
+  </div>
+</div> -->
+
+<!-- Card 35: Spain Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/spain-short-stay-tourist-visa.jpg" alt="Spain Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Spain</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹10,595.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Spain', 'Short Stay Tourist Visa', '₹10,595.00', '₹3,000.00', '₹13,595.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 36: Sri Lanka ETA Tourist Single Entry -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/sri-lanka-eta-tourist-single-entry.jpg" alt="Sri Lanka ETA Tourist Single Entry">
+    <div class="dest-overlay-text">
+      <h3>Sri Lanka</h3>
+      <p>ETA Tourist Single Entry</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹0.00</span>
+      <span>Service: ₹849.60</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Sri Lanka', 'ETA Tourist Single Entry', '₹0.00', '₹849.60', '₹849.60')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 37: Sweden Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/sweden-short-stay-tourist-visa.jpg" alt="Sweden Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Sweden</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹10,893.51</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Sweden', 'Short Stay Tourist Visa', '₹10,893.51', '₹3,000.00', '₹13,893.51')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 38: Switzerland Short Stay Tourist Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/switzerland-short-stay-tourist-visa.jpg" alt="Switzerland Short Stay Tourist Visa">
+    <div class="dest-overlay-text">
+      <h3>Switzerland</h3>
+      <p>Short Stay Tourist Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹11,490.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Switzerland', 'Short Stay Tourist Visa', '₹11,499.00', '₹3,000.00', '₹14,499.00')">
+  Apply Now
+</button>
+  </div>
+</div>
+
+<!-- Card 39: Taiwan E-Visa Single Entry
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/taiwan-e-visa-single-entry.jpg" alt="Taiwan E-Visa Single Entry">
+    <div class="dest-overlay-text">
+      <h3>Taiwan</h3>
+      <p>E-Visa Single Entry</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹6,900.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <a href="apply.html?country=taiwan-e-visa-single-entry" class="btn-dest-apply">Appy Now</a>
+  </div>
+</div> -->
+
+<!-- Card 40: Turkey e-Visa Single Entry -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/turkey-e-visa-single-entry.jpg" alt="Turkey e-Visa Single Entry">
+    <div class="dest-overlay-text">
+      <h3>Turkey</h3>
+      <p>e-Visa Single Entry</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹4,454.81</span>
+      <span>Service: ₹1,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('Turkey', 'e-Visa Single Entry', '₹4,454.81', '₹1,000.00', '₹5,454.81')">
+  Apply Now
+ </button>
+ </div>
+</div>
+
+<!-- Card 41: UAE 30 Days Tourist Visa Single Entry
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/uae-30-days-tourist-visa-single-entry.jpg" alt="UAE 30 Days Tourist Visa Single Entry">
+    <div class="dest-overlay-text">
+      <h3>UAE</h3>
+      <p>30 Days Tourist Visa Single Entry</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹7,250.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <a href="apply.html?country=uae-30-days-tourist-visa-single-entry" class="btn-dest-apply">Appy Now</a>
+  </div>
+</div> -->
+
+<!-- Card 42: UK Standard Visitor Visa -->
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/uk-standard-visitor-visa.jpg" alt="UK Standard Visitor Visa">
+    <div class="dest-overlay-text">
+      <h3>UK</h3>
+      <p>Standard Visitor Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+        <span>Embassy: ₹15,772.00</span>
+        <span>Service: ₹4,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('UK', 'Standard Visitor Visa', '₹15,772.00', '₹4,000.00', '₹19,772.00')">
+  Apply Now
+  </button>
+  </div> 
+  </div>
+
+<!-- Card 43: USA B1/B2 Visitor Visa
+<div class="visa-dest-card">
+  <div class="dest-image-wrapper">
+    <img src="assets/assets/usa-b1b2-visitor-visa.jpg" alt="USA B1/B2 Visitor Visa">
+    <div class="dest-overlay-text">
+      <h3>USA</h3>
+      <p>B1/B2 Visitor Visa</p>
+    </div>
+  </div>
+  <div class="dest-card-bottom">
+    <div class="dest-price-row">
+      <span>Embassy: ₹21,500.00</span>
+      <span>Service: ₹3,000.00</span>
+    </div>
+    <button type="button" class="btn-dest-apply" 
+        onclick="openVisaModal('USA', 'B1/B2 Visitor Visa', '₹21,500.00', '₹3,000.00', '₹24,500.00')">
+  Apply Now
+</button>
+  </div>
+</div> -->
+</section>
+
+
+  <!-- FOOTER NAVIGATION -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4>Skytriping</h4>
+        <p>We simplify international travel planning with transparent pricing, instant application tracking, 
+         <br>and reliable support from inquiry to approval.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="visa.html">Visa Assistance</a></li>
+          <li><a href="passport.html">Passport Renewal</a></li>
+          <li><a href="insurance.html">Travel Insurance</a></li>
+          <li><a href="flights.html">Flights</a></li>
+          <li><a href="hotel.html">Hotels</a></li>
+          <li><a href="track-application.html">Track Application</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support & Legal</h4>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    
+    <!-- Office Address -->
+    <div class="footer-column">
+      <h3>Our Office</h3>
+      <address class="footer-address">
+        Office-206, Block C-448, 2nd Floor <br>
+        100 Futa Road, Shahdara, Delhi 110032 <br>
+        <strong>Email:</strong> <a href="mailto:info@skytriping.com">info@skytriping.com</a><br>
+        <strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a>
+      </address>
+    </div>
+
+    <!-- Social Media Links -->
+   <div class="footer-column">
+  <h3>Follow Us</h3>
+  <div class="social-icons">
+    <!-- LinkedIn -->
+    <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon icon-linkedin">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+      </svg>
+    </a>
+
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/skytripinghub" target="_blank" rel="noopener" aria-label="Facebook" class="social-icon icon-facebook">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H7.5v-3H10V9.69c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.45 3H13.1v6.8c4.56-.93 8-4.96 8-9.8z"/>
+      </svg>
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/skytripinghub/" target="_blank" rel="noopener" aria-label="Instagram" class="social-icon icon-instagram">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+      </svg>
+    </a>
+
+    <!-- X (Twitter) -->
+    <a href="https://x.com/skytripinghub" target="_blank" rel="noopener" aria-label="X" class="social-icon icon-x">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+      </svg>
+    </a>
+
+    <!-- YouTube -->
+    <a href="https://www.youtube.com/@skytripinghub" target="_blank" rel="noopener" aria-label="YouTube" class="social-icon icon-youtube">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+      </svg>
+    </a>
+
+    <!-- Threads -->
+    <a href="https://www.threads.com/@skytripinghub" target="_blank" rel="noopener" aria-label="Threads" class="social-icon icon-threads">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm3.84 10.38c-.08 1.84-1.15 3.24-2.84 3.24-1.25 0-2.13-.88-2.13-2.12 0-1.63 1.34-2.48 3.32-2.48h.08v-.21c0-.62-.43-1.02-1.27-1.02-.73 0-1.42.27-2.02.73l-.7-.84c.82-.67 1.84-1.05 2.92-1.05 1.62 0 2.62.88 2.62 2.37v3.38h-1.48v-1.15zm-1.57-.22c-1.11 0-1.81.42-1.81 1.25 0 .55.37.93.98.93.81 0 1.38-.61 1.38-1.55v-.63h-.55z"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
+    <!-- Payment Gateways -->
+    <div class="footer-column">
+      <h3>Payment Methods</h3>
+      <p class="payment-text">We support secure payments via:</p>
+      <div class="payment-icons">
+        <span class="payment-badge">UPI</span>
+        <span class="payment-badge">Visa</span>
+        <span class="payment-badge">Mastercard</span>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Skytriping. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- VISA INQUIRY MODAL POPUP -->
+<div id="visaModal" class="modal-overlay">
+  <div class="modal-card">
+    <!-- Close Button -->
+    <button type="button" class="modal-close-btn" onclick="closeVisaModal()">&times;</button>
+    
+    <div class="modal-header">
+      <h2>Visa Inquiry</h2>
+      <p id="modalVisaDetails">Selected Destination</p>
+    </div>
+
+    <form id="visaApplicationForm" onsubmit="handleFormSubmit(event)">
+      <!-- Hidden inputs to carry payload -->
+      <input type="hidden" id="selectedCountry" name="country" value="">
+      <input type="hidden" id="selectedVisaType" name="visaType" value="">
+      <input type="hidden" id="selectedEmbassyFee" name="embassyFee" value="">
+      <input type="hidden" id="selectedServiceFee" name="serviceFee" value="">
+      <input type="hidden" id="selectedTotalFee" name="totalFee" value="">
+
+      <div class="form-group">
+        <label for="applicantName">Full Name *</label>
+        <input type="text" id="applicantName" name="fullName" placeholder="Enter your full name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="applicantEmail">Email Address *</label>
+        <input type="email" id="applicantEmail" name="email" placeholder="name@example.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="+91 9876543210" required>
+      </div>
+
+      <!-- Live Dynamic Fee Box -->
+      <div class="fee-breakdown-box">
+        <h4>Fee Breakdown</h4>
+        <div class="fee-line">
+          <span>Embassy Fee:</span>
+          <strong id="displayEmbassyFee">₹0</strong>
+        </div>
+        <div class="fee-line">
+          <span>Service Charges (incl. GST):</span>
+          <strong id="displayServiceFee">₹0</strong>
+        </div>
+        <div class="fee-line total-line">
+          <span>Total Fee:</span>
+          <strong id="displayTotalFee">₹0</strong>
+        </div>
+      </div>
+
+      <!-- Optional Message Field -->
+      <div class="form-group margin-top-sm">
+        <label for="applicantMessage">Message / Travel Details (Optional)</label>
+        <textarea id="applicantMessage" name="message" rows="3" placeholder="Travel dates, passport type, or special requests..."></textarea>
+      </div>
+
+      <button type="submit" id="submitBtn" class="btn-modal-submit">Submit Inquiry</button>
+      <div id="formStatus" class="form-status-msg"></div>
+    </form>
+  </div>
+</div>
+ 
+  <!-- Make sure this line exists at the bottom conecting submit with inquiry -->
+<script src="script.js"></script>
+
+<script src="script.js?v=1.1"></script>
+</body>
+</html>
